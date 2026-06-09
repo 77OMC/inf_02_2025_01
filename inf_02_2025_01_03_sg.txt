@@ -1,0 +1,247 @@
+Arkusz zawiera informacje
+prawnie chronione do momentu
+rozpoczęcia egzaminu
+
+Nazwa kwalifikacji: Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych
+i lokalnych sieci komputerowych
+Symbol kwalifikacji: INF.02
+Numer zadania: 03
+Wersja arkusza: SG
+Wypełnia zdający
+Numer PESEL zdającego*
+
+Czas trwania egzaminu: 150 minut.
+
+EGZAMIN ZAWODOWY
+Rok 2025
+CZĘŚĆ PRAKTYCZNA
+
+Miejsce na naklejkę z numerem
+PESEL i z kodem ośrodka
+
+INF.02-03-25.01-SG
+
+PODSTAWA PROGRAMOWA
+2019
+
+Instrukcja dla zdającego
+Na pierwszej stronie arkusza egzaminacyjnego wpisz w oznaczonym miejscu swój numer PESEL
+i naklej naklejkę z numerem PESEL i z kodem ośrodka.
+2. Na KARCIE OCENY w oznaczonym miejscu przyklej naklejkę z numerem PESEL oraz wpisz:
+− swój numer PESEL*,
+− oznaczenie kwalifikacji,
+− numer zadania,
+− numer stanowiska.
+3. KARTĘ OCENY przekaż zespołowi nadzorującemu.
+4. Sprawdź, czy arkusz egzaminacyjny zawiera 5 stron i nie zawiera błędów. Ewentualny brak stron lub
+inne usterki zgłoś przez podniesienie ręki przewodniczącemu zespołu nadzorującego.
+5. Zapoznaj się z treścią zadania oraz stanowiskiem egzaminacyjnym. Masz na to 10 minut. Czas ten
+nie jest wliczany do czasu trwania egzaminu.
+6. Czas rozpoczęcia i zakończenia pracy zapisze w widocznym miejscu przewodniczący zespołu
+nadzorującego.
+7. Wykonaj samodzielnie zadanie egzaminacyjne. Przestrzegaj zasad bezpieczeństwa i organizacji
+pracy.
+8. Jeżeli w zadaniu egzaminacyjnym występuje polecenie „zgłoś gotowość do oceny przez podniesienie
+ręki”, to zastosuj się do polecenia i poczekaj na decyzję przewodniczącego zespołu nadzorującego.
+9. Po zakończeniu wykonania zadania pozostaw rezultaty oraz arkusz egzaminacyjny na swoim
+stanowisku lub w miejscu wskazanym przez przewodniczącego zespołu nadzorującego.
+10. Po uzyskaniu zgody zespołu nadzorującego możesz opuścić salę/miejsce przeprowadzania egzaminu.
+1.
+
+Powodzenia!
+* w przypadku braku numeru PESEL – seria i numer paszportu lub innego dokumentu potwierdzającego tożsamość
+Układ graficzny
+© CKE 2023
+
+Zadanie egzaminacyjne
+Korzystając z dostępnych narzędzi, oprogramowania oraz elementów znajdujących się na stanowisku
+egzaminacyjnym, wykonaj montaż podzespołów oraz połączenie urządzeń sieciowych. Przeprowadź
+konfigurację urządzeń sieciowych i systemów operacyjnych zainstalowanych na dyskach twardych stacji
+roboczej i serwera, a także wykonaj identyfikację podzespołów stacji roboczej.
+Na stacji roboczej oraz serwerze z zainstalowanym systemem Windows wykorzystaj konto Administrator
+z hasłem ZAQ!2wsx
+Na stacji roboczej z zainstalowanym systemem Linux wykorzystaj konto administrator z hasłem ZAQ!2wsx
+(konto z prawem podniesienia uprawnień do root z hasłem ZAQ!2wsx )
+1. Korzystając z dostępnych podzespołów komputerowych znajdujących się na stanowisku egzaminacyjnym
+przeprowadź modernizację stacji roboczej:
+− zamontuj dodatkowy moduł pamięci RAM
+−
+
+zamontuj dodatkowy dysk twardy
+
+UWAGA: Po wykonaniu montażu zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do zakończenia prac montażowych. Po uzyskaniu zgody przystąp do końcowych czynności
+montażowych i uruchomienia systemu.
+2. Skonfiguruj ruter zgodnie z następującymi zaleceniami:
+− adres IP interfejsu WAN: 100.100.100.5/28
+−
+−
+−
+
+brama domyślna interfejsu WAN: 100.100.100.1
+serwer DNS interfejsu WAN: 8.8.8.8 oraz drugi serwer DNS: 4.4.4.4, jeśli jest wymagany
+adres IP interfejsu LAN 192.168.1.1/24
+
+−
+−
+−
+−
+−
+
+włącz serwer DHCP
+zakres dzierżawy DHCP: 192.168.1.50 ÷ 192.168.1.55
+adres IP 192.168.1.51 zarezerwowany dla adresu MAC bezprzewodowej karty sieciowej stacji roboczej
+sieć bezprzewodowa o nazwie: EGZAMIN_XX, gdzie XX to numer stanowiska egzaminacyjnego
+uwierzytelnienie sieci bezprzewodowej tylko WPA2 PSK z kluczem: Qwerty_7 i szyfrowaniem AES lub
+CCMP
+kanał XX dla transmisji bezprzewodowej 2,4 GHz, gdzie XX to numer stanowiska egzaminacyjnego
+
+−
+
+UWAGA: Jeżeli AP jest oddzielnym urządzeniem należy skonfigurować interfejs LAN korzystając
+z dowolnego wolnego adresu należącego do podsieci LAN rutera. Adres bramy domyślnej: 192.168.1.1, tryb
+pracy Access Point.
+Urządzenia sieciowe pracują na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna w
+folderze RUTER na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli ruter wymaga zmiany hasła,
+ustaw je zgodnie z wymogami urządzenia.
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień rutera.
+3. Skonfiguruj przełącznik zgodnie z następującymi zaleceniami:
+− adres IP: 192.168.1.2/24
+− brama domyślna: 192.168.1.1
+Strona 2 z 5
+
+Przełącznik pracuje na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna w folderze
+PRZEŁĄCZNIK na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli przełącznik wymaga zmiany
+hasła, ustaw je zgodnie z wymogami urządzenia.
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość
+do oceny ustawień przełącznika.
+4. Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia
+zgodnie ze schematem, a następnie podłącz je do sieci zasilającej.
+
+Schemat połączenia urządzeń
+UWAGA: Jeżeli AP jest oddzielnym urządzeniem podłącz go w dowolny poprawny sposób
+5. Przeprowadź na stacji roboczej Linux identyfikację zasobów komputera za pomocą dostępnych
+w systemie operacyjnym narzędzi. Uzyskane wyniki, zapisz w postaci zrzutów ekranowych, w katalogu
+Identyfikacja_zasobów_stacji na dysku USB oznaczonym nazwą Egzamin-x, gdzie x to numer
+stanowiska egzaminacyjnego. Uzyskane wyniki zapisz w Tabeli 1. Identyfikacja podzespołów stacji
+roboczej znajdującej się w arkuszu egzaminacyjnym. W przypadku braku możliwości identyfikacji
+wymaganych parametrów przez system należy zapisać brak danych.
+6. Na stacji roboczej skonfiguruj system Windows:
+− skonfiguruj bezprzewodowy interfejs sieciowy stacji roboczej:
+−
+−
+
+nazwa połączenia: WiFi
+adres IP: pobierany automatycznie
+
+− połącz się z utworzoną siecią bezprzewodową
+− wyłącz przewodowy interfejs sieciowy stacji roboczej
+Strona 3 z 5
+
+− zainstaluj
+program
+7-Zip,
+instalator
+dostępny
+jest
+na
+nośniku
+opisanym
+DOKUMENTACJA/PROGRAMY
+− korzystając z programu 7-Zip utwórz archiwum o nazwie kopia_zd.zip zabezpieczone hasłem
+ZAQ!@WSX zawierające pliki graficzne zd_1.jpg i zd_2.jpg znajdujące się w folderze PLIKI na
+nośniku opisanym DOKUMENTACJA/PROGRAMY
+− korzystając z narzędzi systemowych utwórz dwie równe partycje po ok 50% pojemności dysku na
+zamontowanym zapasowym dysku twardym
+− sformatuj pierwszą utworzoną partycję z systemem plików NTFS, przypisz literę M oraz nadaj jej
+etykietę BACKUP1
+− sformatuj drugą utworzoną partycję z systemem plików NTFS, przypisz literę Y oraz nadaj jej etykietę
+BACKUP2
+− przenieś na dysk M:\ archiwum kopia_zd.zip
+− utwórz konto użytkownika Praktykant bez hasła należące do grupy Użytkownicy
+− odmów użytkownikowi konta Praktykant wszelkich uprawnień do dysku M:
+7. Skonfiguruj serwer z zainstalowanym systemem operacyjnym Windows:
+− skonfiguruj interfejs sieciowy serwera podłączony do portu 2 przełącznika:
+‒ nazwa połączenia: LAN1
+‒ adres IP: 192.168.1.4/24
+‒ brama domyślna:192.168.1.1
+‒ serwer DNS: 8.8.8.8
+‒ skonfiguruj interfejs sieciowy podłączony do drukarki:
+‒ adres IP: 192.168.0.100+X/24, gdzie X to numer stanowiska egzaminacyjnego
+‒ brama domyślna: brak
+‒ serwer DNS: brak
+−
+−
+
+utwórz konto użytkownika Drukarz z hasłem QWSAzx_12 należące do grupy Użytkownicy
+dodaj usługę drukowania, a następnie zainstaluj i udostępnij drukarkę sieciową
+
+−
+−
+−
+−
+−
+
+wykorzystane drukowanie przez port TCP/IP protokołem RAW
+adres IP drukarki: 192.168.0.200/24
+nazwa udostępnionej drukarki: INF02
+ustaw dostępność drukarki od godziny 6:00 do 22:00 oraz priorytet 2
+ustaw zabezpieczenia tak, aby tylko użytkownik konta Drukarz mógł drukować, TWÓRCAWŁAŚCICIEL zarządzać dokumentami oraz Administrator miał pełną kontrolę,
+
+− wydrukuj stronę testową drukarki
+UWAGA: Zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do wykonania wydruku strony
+testowej.
+−
+
+utwórz skrypt systemowy tworzący konta pięciu użytkowników o nazwach od student_1 do student_5
+stosując dowolny rodzaj pętli. Uruchom skrypt na serwerze sprawdzając poprawność jego działania.
+Gotowy plik skryptu zapisz pod nazwą student.cmd na dysku USB oznaczonym nazwą Egzamin-x,
+gdzie x to numer stanowiska egzaminacyjnego
+
+8. Na serwerze za pomocą poleceń systemowych wykonaj test komunikacji serwera ze stacją roboczą,
+interfejsem LAN rutera oraz przełącznikiem. W razie potrzeby na stacji roboczej zmień odpowiednio
+ustawienia zapory sieciowej.
+Strona 4 z 5
+
+UWAGA: Po wykonaniu testów połączenia zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia ponownego sprawdzenia komunikacji serwera z ruterem, przełącznikiem
+oraz stacją roboczą. Sprawdzenie wykonaj w obecności egzaminatora. Na stacji roboczej wyświetl
+automatycznie nadany adres IP.
+9. Na stacji roboczej w systemie Windows zainstaluj program Nmap z Zenmap GUI znajdujący się na
+nośniku opisanym DOKUMENTACJA/PROGRAMY:
+− wykonaj skanowanie typu Quick scan segmentu sieci, w której pracuje stacja robocza
+−
+−
+
+wykonaj zrzut okna programu Zenmap z widocznym graficznym schematem topologii sieci lokalnej
+zrzut zapisz w postaci pliku graficznego pod nazwą zenmap.jpg na nośniku Egzamin-x, gdzie
+x to numer stanowiska egzaminacyjnego
+
+UWAGA: Po zakończeniu prac nie wylogowuj się oraz nie wyłączaj komputerów i urządzeń sieciowych
+znajdujących się na Twoim stanowisku egzaminacyjnym.
+Czas na wykonanie zadania wynosi 150 minut.
+Ocenie będzie podlegać 5 rezultatów:
+− montaż podzespołów oraz połączenie fizyczne urządzeń,
+− identyfikacja parametrów,
+− skonfigurowane urządzenia sieciowe,
+− skonfigurowany serwer,
+− skonfigurowana stacja robocza
+oraz
+przebieg montażu podzespołów.
+Uwaga: Zawartość dysku USB, wykorzystywanego podczas egzaminu do zapisu zrzutów ekranowych
+lub dokumentów, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz
+z arkuszem do OKE.
+
+Podzespół
+
+Tabela1. Identyfikacja podzespołów stacji roboczej
+Producent
+Pojemność
+
+Dodatkowy dysk twardy
+Dodatkowy moduł pamięci RAM
+
+Strona 5 z 5
+
+
