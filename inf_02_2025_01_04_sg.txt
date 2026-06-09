@@ -1,0 +1,240 @@
+Arkusz zawiera informacje
+prawnie chronione do momentu
+rozpoczęcia egzaminu
+
+Nazwa kwalifikacji: Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych
+i lokalnych sieci komputerowych
+Symbol kwalifikacji: INF.02
+Numer zadania: 04
+Wersja arkusza: SG
+Wypełnia zdający
+Numer PESEL zdającego*
+
+Czas trwania egzaminu: 150 minut.
+
+EGZAMIN ZAWODOWY
+Rok 2025
+CZĘŚĆ PRAKTYCZNA
+
+Miejsce na naklejkę z numerem
+PESEL i z kodem ośrodka
+
+INF.02-04-25.01-SG
+
+PODSTAWA PROGRAMOWA
+2019
+
+Instrukcja dla zdającego
+Na pierwszej stronie arkusza egzaminacyjnego wpisz w oznaczonym miejscu swój numer PESEL
+i naklej naklejkę z numerem PESEL i z kodem ośrodka.
+2. Na KARCIE OCENY w oznaczonym miejscu przyklej naklejkę z numerem PESEL oraz wpisz:
+− swój numer PESEL*,
+− oznaczenie kwalifikacji,
+− numer zadania,
+− numer stanowiska.
+3. KARTĘ OCENY przekaż zespołowi nadzorującemu.
+4. Sprawdź, czy arkusz egzaminacyjny zawiera 6 stron i nie zawiera błędów. Ewentualny brak stron lub
+inne usterki zgłoś przez podniesienie ręki przewodniczącemu zespołu nadzorującego.
+5. Zapoznaj się z treścią zadania oraz stanowiskiem egzaminacyjnym. Masz na to 10 minut. Czas ten
+nie jest wliczany do czasu trwania egzaminu.
+6. Czas rozpoczęcia i zakończenia pracy zapisze w widocznym miejscu przewodniczący zespołu
+nadzorującego.
+7. Wykonaj samodzielnie zadanie egzaminacyjne. Przestrzegaj zasad bezpieczeństwa i organizacji
+pracy.
+8. Jeżeli w zadaniu egzaminacyjnym występuje polecenie „zgłoś gotowość do oceny przez podniesienie
+ręki”, to zastosuj się do polecenia i poczekaj na decyzję przewodniczącego zespołu nadzorującego.
+9. Po zakończeniu wykonania zadania pozostaw rezultaty oraz arkusz egzaminacyjny na swoim
+stanowisku lub w miejscu wskazanym przez przewodniczącego zespołu nadzorującego.
+10. Po uzyskaniu zgody zespołu nadzorującego możesz opuścić salę/miejsce przeprowadzania egzaminu.
+1.
+
+Powodzenia!
+* w przypadku braku numeru PESEL – seria i numer paszportu lub innego dokumentu potwierdzającego tożsamość
+Układ graficzny
+© CKE 2023
+
+Zadanie egzaminacyjne
+Wykorzystując dostępne narzędzia znajdujące się na stanowisku egzaminacyjnym, wykonaj montaż
+okablowania oraz podłączenie urządzeń sieciowych. Wykonaj konfigurację urządzeń sieciowych oraz
+konfigurację systemów zainstalowanych na dysku twardym stacji roboczej i serwera, a także wykonaj
+identyfikację podzespołów stacji roboczej.
+Na serwerze oraz stacji roboczej z systemem Windows wykorzystaj konto Administrator z hasłem
+ZAQ!2wsx
+Na stacji roboczej z systemem Linux wykorzystaj konto administrator z hasłem ZAQ!2wsx (konto z prawem
+podniesienia uprawnień do root z hasłem ZAQ!2wsx )
+Drukarka podłączona jest do gniazda oznaczonego E-X, gdzie X oznacza numer stanowiska
+egzaminacyjnego. Adres IP drukarki sieciowej: 192.168.0.200.
+1.
+
+Wykonaj okablowanie sieciowe:
+‒ wykonaj kabel połączeniowy prosty według sekwencji T568B
+‒ zastosuj odpowiedni typ kabla
+‒ przeprowadź test poprawności wykonanego okablowania.
+
+UWAGA: Po wykonaniu okablowania zgłoś Przewodniczącemu ZN – przez podniesienie ręki –
+gotowość do przeprowadzenia testu okablowania. W obecności egzaminatora ponownie sprawdź za pomocą
+testera okablowania poprawność wykonania kabla połączeniowego.
+2.
+
+Korzystając z poleceń systemowych na stacji roboczej w systemie Linux dokonaj identyfikacji
+podzespołów komputera i parametrów technicznych zasilacza:
+‒ sprawdź parametry procesora i dysku umieszczone w Tabeli 1. Parametry podzespołów stacji
+roboczej w arkuszu egzaminacyjnym
+‒ wykonaj zrzuty ekranu z widocznym poleceniem i wynikiem jego działania dla procesora w pliku
+graficznym o nazwie cpu.jpg oraz dla dysku w pliku graficznym o nazwie dysk.jpg. Pliki umieść na
+nośniku USB opisanym Egzamin-x, gdzie x oznacza numer stanowiska zdającego
+‒ odczytane parametry zapisz w tabeli 1
+‒ korzystając z tabliczki znamionowej zasilacza odczytaj parametry techniczne zasilacza stacji
+roboczej i zapisz je w Tabeli 2. Parametry techniczne zasilacza w arkuszu egzaminacyjnym.
+
+3.
+
+Skonfiguruj ruter zgodnie z następującymi zaleceniami:
+‒ adres IP interfejsu WAN: 100.100.100.8/28
+‒ brama domyślna interfejsu WAN: 100.100.100.1
+‒ serwer DNS interfejsu WAN: 4.4.4.4, drugi serwer DNS: 8.8.8.8, jeżeli jest wymagany
+‒ adres IP interfejsu LAN: 192.168.0.1/24
+‒ wyłączony serwer DHCP
+
+Ruter pracuje na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna w folderze RUTER
+na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli ruter wymaga zmiany hasła, ustaw je zgodnie
+z wymogami tego urządzenia.
+UWAGA: Po wykonaniu konfiguracji zgłoś przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień rutera.
+
+Strona 2 z 6
+
+4.
+
+Skonfiguruj przełącznik zgodnie z następującymi zaleceniami:
+‒ adres IP: 192.168.0.10/24
+‒ brama domyślna: adres IP rutera
+
+Przełącznik pracuje na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna w folderze
+PRZEŁĄCZNIK na nośniku opisanym DOKUMENTACJA/PROGRAMY. Jeżeli przełącznik wymaga zmiany
+hasła, ustaw je zgodnie z wymogami tego urządzenia.
+UWAGA: Po wykonaniu konfiguracji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do
+oceny ustawień przełącznika.
+5.
+
+Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia
+zgodnie ze schematem.
+
+Schemat połączenia urządzeń
+6.
+
+Skonfiguruj serwer z zainstalowanym systemem Windows:
+‒ interfejs sieciowy podłączony do przełącznika:
+‒ adres IP: 192.168.0.100+X/24, gdzie X to numer stanowiska egzaminacyjnego
+‒ brama domyślna: 192.168.0.1
+‒ serwer DNS: localhost
+‒ zainstaluj usługę Active Directory
+‒ promuj serwer do roli kontrolera domeny oraz utwórz domenę inf02.local w nowym lesie
+‒ hasło Administratora trybu przywracania usług katalogowych ZAQ!2wsx
+‒ utwórz w domenie jednostki organizacyjne: Uczniowie i Egzaminatorzy
+‒ w jednostce organizacyjnej Egzaminatorzy utwórz konto użytkownika Jan Abacki z nazwą
+logowania jabacki oraz hasłem ZAQ1@wsx1
+Strona 3 z 6
+
+w jednostce organizacyjnej Uczniowie utwórz konto użytkownika Zenon Babacki z nazwą
+logowania zbabacki oraz hasłem ZAQ1@wsx2
+utwórz grupę globalną Egzamin oraz dodaj do niej użytkowników jabacki i zbabacki
+dodaj usługę drukowania, a następnie zainstaluj i udostępnij drukarkę sieciową:
+‒ dodaj do serwera wydruku drukarkę sieciową wykorzystując protokół RAW przez TCP/IP
+‒ ustaw nazwę drukarki Egzamin_druk oraz udostępnij drukarkę z taką samą nazwą udziału
+‒ ustaw drukarce najwyższy priorytet
+‒ ustaw dostępność drukarki w godzinach 8:00 ÷ 22:00
+‒ ustaw zabezpieczenia tak, aby tylko grupa Egzamin mogła drukować, TWÓRCAWŁAŚCICIEL zarządzać dokumentami oraz Administrator miał pełną kontrolę
+‒ przez zasady grup rozmieść zainstalowaną drukarkę użytkownikom jednostki organizacyjnej
+Uczniowie
+dodaj nowy obiekt zasad grupy dla jednostki organizacyjnej Uczniowie o nazwie Panel
+i w konfiguracji użytkownika włącz opcję Zabroń dostępu do Panelu sterowania
+zezwól komputerom z uwierzytelnieniem na poziomie sieci na podłączenie się do serwera przez
+Pulpit zdalny
+‒
+
+‒
+‒
+
+‒
+‒
+
+7.
+
+Skonfiguruj stację roboczą z zainstalowanym systemem Windows:
+‒ przewodowy interfejs sieciowy stacji roboczej podłączony do przełącznika:
+‒ adres IP: 192.168.0.50+X/24, gdzie X to numer stanowiska egzaminacyjnego
+‒ brama domyślna: adres IP rutera
+‒ serwer DNS: adres IP serwera
+‒ dodaj stację roboczą do domeny inf02.local
+‒ połącz się z serwerem korzystając z Pulpitu zdalnego
+‒ zaloguj się do domeny na konto zbabacki a następnie sprawdź możliwość uruchomienia Panelu
+Sterowania
+‒ wykonaj wydruk strony testowej z udostępnionej na serwerze drukarki.
+
+UWAGA: Zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość do prezentacji wyników:
+połączenia z serwerem za pomocą Pulpitu zdalnego, braku możliwości uruchomienia panelu sterowania oraz
+do wykonania wydruku strony testowej.
+8.
+
+Wykonaj test komunikacji stacji roboczej z interfejsem LAN rutera, serwerem oraz drukarką. W razie
+potrzeby na serwerze zmień odpowiednio ustawienia zapory sieciowej.
+
+UWAGA: Po wykonaniu testu komunikacji zgłoś Przewodniczącemu ZN – przez podniesienie ręki – gotowość
+do ponownego przeprowadzenia testu komunikacji stacji roboczej z ruterem, serwerem oraz drukarką.
+Sprawdzenie wykonaj w obecności egzaminatora.
+9.
+
+Sporządź, w arkuszu kalkulacyjnym kalkulację zapotrzebowania na moc podzespołów jednostki
+centralnej w ramach planowanej modernizacji. Plik zapisz pod nazwą kalkulacja_mocy na nośniku USB
+opisanym Egzamin-x:
+− kalkulację wykonaj według Tabeli 3. Wzór kalkulacji mocy podzespołów
+− obliczenie łącznego zapotrzebowania na moc modernizowanych podzespołów jednostki centralnej w
+komórce B9 powinno wykonywać się automatycznie
+− w komórce B11 należy wpisać maksymalną moc zasilacza zapisaną w tabeli 2
+
+Strona 4 z 6
+
+− wartość komórki B12 jest równa komórce B9 powiększonej o 20%, co powinno być obliczane
+automatycznie
+− W komórce B13 za pomocą formuły jest ustalany napis „NIE”, jeżeli moc z komórki B11 jest większa
+lub równa mocy z komórki B12 lub napis „TAK” w przeciwnym wypadku
+UWAGA: Po zakończeniu prac nie wylogowuj się i nie wyłączaj komputerów oraz urządzeń sieciowych
+znajdujących się na Twoim stanowisku egzaminacyjnym.
+UWAGA: Zawartość nośnika USB, wykorzystywanego podczas egzaminu do zapisu zrzutów ekranowych lub
+dokumentów, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz
+z arkuszem do OKE.
+
+Czas przeznaczony na wykonanie zadania wynosi 150 minut.
+Ocenie podlegać będzie 6 rezultatów:
+− montaż okablowania oraz podłączenie fizyczne urządzeń,
+− identyfikacja parametrów,
+− skonfigurowane urządzenia sieciowe,
+− skonfigurowany serwer,
+− skonfigurowana stacja robocza,
+− kalkulacja mocy podzespołów
+oraz
+przebieg montażu okablowania.
+
+Tabela 1. Parametry podzespołów stacji roboczej
+Producent i model procesora
+Ilość wolnego miejsca na dysku
+
+Tabela 2. Parametry techniczne zasilacza
+PARAMETR
+
+WARTOŚĆ
+
+Moc maksymalna w trybie ciągłym
+Napięcie wejściowe
+Napięcia wyjściowe
+
+Strona 5 z 6
+
+JEDNOSTKA
+
+Tabela 3. Wzór kalkulacji mocy podzespołów
+
+Strona 6 z 6
+
+
